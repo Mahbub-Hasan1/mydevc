@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.projects-title{
+    margin: 100px 0px 50px 0px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 2px #3CC0C5;
+}
+
+.projects-title h2{
+    font-size: 45px;
+}
+
+.projects-item{
+    overflow: hidden;
+}
+
+.projects-overlay{
+    background-color:  #4ac8bbc2;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.projects-item:hover .projects-overlay{
+    top: 0;
+}
+.projects-item-div{
+    margin-bottom: 20px;
+}
+.card {
+    border: none;
+}
+
+
+.projects-items{
+    margin-bottom: 80px;
+}

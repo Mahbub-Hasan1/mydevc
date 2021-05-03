@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap');
+
+/* font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.header-area{
+    padding: 50px 0px;
+    height: 510px;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+
+
+.header-headline{
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+.header-img-div{
+    text-align: center;
+}
+
+.header-img-div img{
+    width: 70%;
+}
+
+.heder-bottom-div{
+    background:#5C7FA2;
+    color: #fff;
+    padding: 5px;
+    margin: 0px 0px 100px 0px;
+}
+
+.heder-bottom-div h5{
+    margin: 0;
+    margin-top: 5px;
+}
+.heder-bottom-div button{
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    background: #5C7FA2;
+    color: #fff;
+    border: 3px solid #3DC0C5;
+    border-radius: 5px;
+}
+.heder-bottom-div button:hover{
+    background: #40C2C3;
+}
+
+/* ------------- responsive design css  */ 
+@media only screen and (max-width: 574px) {
+    
+    .header-area {
+      height: auto;
+      padding-top: 10px;
+    }
+    .header-headline{
+        font-size: 20px;
+    }
+    .header-img-div img{
+        width: 100%;
+    }
+
+    .heder-bottom-div h5{
+        font-size: 15px;
+    }
+    .heder-bottom-div button{
+        font-size: 15px;
+        width: 40%;
+        padding: 0px;
+    }
+    .heder-bottom-div{
+        margin-bottom: 30px;
+    }
+  }

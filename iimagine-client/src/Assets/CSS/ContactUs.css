@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+.contactUs-headLine{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px #7196C3;
+}
+
+
+/* .contactUs-input-div{
+
+} */
+
+.contactUs-input{
+    width: 100%;
+    padding: 3px;
+    border: 2px solid #7096C3;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.contactUs-input:focus{
+    outline: none;
+    border: 2px solid #0A66C2;
+}
+
+.contactUs-input::placeholder{
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.contactUs-input-submit{
+    margin: 5px;
+    width: 100%;
+    padding: 2px;
+    font-weight: bold;
+    border: 2px solid #7196C3;
+    background-color: #9BBCE7;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* ----------------- contact-us-details */
+
+.contact-us-details h5{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-us-details p{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
